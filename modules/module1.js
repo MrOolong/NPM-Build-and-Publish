@@ -7,6 +7,6 @@ module.exports = {
             str += string.charAt(Math.floor(Math.random() * string.length));
             i++;
         }
-        return string;
+        return str;
     }
 }
