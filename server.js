@@ -2,6 +2,7 @@ var express = require('express');
 
 var app = express();
 
+// Note: Node's Crpyto Function can also be used for the randomizer
 var random = require('./modules/module1.js');
 
 app.get('/', function(req, res){
